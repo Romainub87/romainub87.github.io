@@ -1,0 +1,39 @@
+#liste-sites {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#titre {
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#sites {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 15px;
+    padding: 15px;
+}
+
+#sites a {
+    text-decoration: none;
+    color: black;
+    border: 10px black solid;
+    margin: 3em;
+    padding: 10em;
+    border-radius: 75px;
+
+}
+
+#sites #morpion {
+    background-image: url(images/morpion.jpg);
+    background-size: cover;
+}
+
+#sites #portfolio {
+    background-image: url(images/portfolio.jpg);
+    background-size: cover;
+}
