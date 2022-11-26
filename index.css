@@ -47,3 +47,8 @@ body {
     background-image: url(images/portfolio.jpg);
     background-size: cover;
 }
+
+#sites #devinetonjoueur {
+    background-image: url(images/icon.jpg);
+    background-size: cover;
+}
