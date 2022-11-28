@@ -1,54 +1,129 @@
+/* Propriétés générales de la page */
+html {
+    height: 100%;
+}
+
 body {
+    display: table;
+    position: relative;
+    min-height: 100%;
+    margin: 0;
+    margin-bottom: 5em;
+    padding: 0;
+    width: 100%;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: white url("img/plancher.jpg") no-repeat right bottom;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#Logo {
+    display: block;
+    height: 75px;
+    background-color: black;
+    border-bottom-left-radius: 25px;
+}
+
+ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
-#liste-sites {
-    display: flex;
-    padding: 0;
-    flex-direction: column;
-
+li {
+    float: left;
+    height: 75px;
 }
 
-#titre {
-    text-transform: uppercase;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+#logoEmplacement {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
     text-align: center;
-    padding-bottom: 1em;
-    padding-top: 1em;
-    background-color: burlywood;
-}
-
-#sites {
-    display: flex;
-    flex-direction: row;
-    align-self: center;
-    flex-wrap: wrap;
-    margin: 15px;
     padding: 15px;
 }
 
-#sites a {
-    text-decoration: none;
-    color: black;
-    border: 10px black solid;
-    margin: 3em;
-    padding: 7em;
-    border-radius: 45px;
-
+li a:hover {
+    border-bottom: black solid;
 }
 
-#sites #morpion {
-    background-image: url(images/morpion.jpg);
-    background-size: cover;
+#iconeAccueil {
+    height: 35px;
 }
 
-#sites #portfolio {
-    background-image: url(images/portfolio.jpg);
-    background-size: cover;
+#iconeTravail {
+    height: 35px;
 }
 
-#sites #devinetonjoueur {
-    background-image: url(images/icon.jpg);
-    background-size: cover;
+#titre {
+    text-align: center;
+    font-size: 3.5em;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+
+#titre_encadre {
+    display: flex;
+    background-color: white;
+    width: fit-content;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 25px;
+    border-radius: 25px;
+    border: 4px solid black;
+    box-shadow: 4px 4px 8px;
+    margin-bottom: 2em;
+}
+
+#Presentation {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    margin-bottom: 5%;
+    border-radius: 35px;
+    text-align: justify;
+    width: 50%;
+}
+
+#imageProfil {
+    display: flex;
+    border-radius: 35px;
+    height: 10em;
+    border: 3px solid white;
+    box-shadow: -5px 5px 10px;
+}
+
+#presTexte {
+    display: flex;
+    width: fit-content;
+    text-align: justify;
+    width: 200px;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-weight: bolder;
+    line-height:normal;
+}
+
+#footer {
+    margin-top: 5%;
+    display: table-row;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    float: left;
+    overflow: hidden;
+}
+
+#footer h4 {
+    margin: auto;
+    margin-left: 1em;
+}
+
+#footer img {
+    margin-left: 1em;
+    width: 35px;
 }
