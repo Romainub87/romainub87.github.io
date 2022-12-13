@@ -33,25 +33,24 @@ body {
     margin: 3em;
     padding: 7em;
     border-radius: 45px;
+  }
+  .image {
+    background-size: cover;
+  }
 
-    .image {
-      background-size: cover;
-    }
+  #morpion {
+    background-image: url(images/morpion.jpg);
+  }
 
-    #morpion {
-      background-image: url(images/morpion.jpg);
-    }
+  #portfolio {
+    background-image: url(images/portfolio.jpg);
+  }
 
-    #portfolio {
-      background-image: url(images/portfolio.jpg);
-    }
+  #devinetonjoueur {
+    background-image: url(images/icon.jpg);
+  }
 
-    #devinetonjoueur {
-      background-image: url(images/icon.jpg);
-    }
-
-    #course {
-        background-image: url(images/course.jpg);
-    }
+  #course {
+    background-image: url(images/course.jpg);
   }
 }

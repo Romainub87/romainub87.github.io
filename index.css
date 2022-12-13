@@ -36,22 +36,22 @@ body {
   border-radius: 45px;
 }
 
-#sites a .image {
+#sites .image {
   background-size: cover;
 }
 
-#sites a #morpion {
+#sites #morpion {
   background-image: url(images/morpion.jpg);
 }
 
-#sites a #portfolio {
+#sites #portfolio {
   background-image: url(images/portfolio.jpg);
 }
 
-#sites a #devinetonjoueur {
+#sites #devinetonjoueur {
   background-image: url(images/icon.jpg);
 }
 
-#sites a #course {
+#sites #course {
   background-image: url(images/course.jpg);
 }
